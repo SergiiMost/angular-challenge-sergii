@@ -1,0 +1,54 @@
+.content-wrapper {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.btn-blue {
+  background-color: #1976d2;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.btn-blue:hover {
+  opacity: 0.8;
+}
+
+.btn-blue span {
+  margin-right: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgb(23 70 161 / 11%);
+}
